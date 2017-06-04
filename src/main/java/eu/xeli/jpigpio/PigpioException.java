@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 /**
  * A clas sthat defines the exceptions that can be thrown by Pigpio.

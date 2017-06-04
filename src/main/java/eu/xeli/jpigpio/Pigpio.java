@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 import jpigpio.impl.CommonPigpio;
 

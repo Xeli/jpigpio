@@ -1,4 +1,4 @@
-package jpigpio.devices;
+package eu.xeli.jpigpio.devices;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

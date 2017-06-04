@@ -1,4 +1,4 @@
-package jpigpio.sensors;
+package eu.xeli.jpigpio.sensors;
 
 import jpigpio.JPigpio;
 import jpigpio.PigpioException;

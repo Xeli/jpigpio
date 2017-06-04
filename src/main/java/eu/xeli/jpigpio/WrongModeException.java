@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 /**
  * An exception that states that a pin is in the wrong mode.

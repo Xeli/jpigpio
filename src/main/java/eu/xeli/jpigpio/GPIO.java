@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 public class GPIO {
 	private JPigpio pigpio;

@@ -1,4 +1,4 @@
-package jpigpio.devices;
+package eu.xeli.jpigpio.devices;
 
 import jpigpio.JPigpio;
 import jpigpio.Pigpio;

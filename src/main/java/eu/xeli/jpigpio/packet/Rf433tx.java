@@ -1,4 +1,4 @@
-package jpigpio.packet;
+package eu.xeli.jpigpio.packet;
 
 import jpigpio.JPigpio;
 import jpigpio.PigpioException;

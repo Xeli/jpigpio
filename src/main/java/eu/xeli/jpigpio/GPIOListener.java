@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 /**
  * Simple interface for implementing GPIO callbacks

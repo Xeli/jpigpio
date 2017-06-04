@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 public interface Alert {
 	public void alert(int gpio, int level, long tick);

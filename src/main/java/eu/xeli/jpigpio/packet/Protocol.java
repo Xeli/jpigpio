@@ -1,4 +1,4 @@
-package jpigpio.packet;
+package eu.xeli.jpigpio.packet;
 
 /**
  * Class defining properties of RF communication signaling.

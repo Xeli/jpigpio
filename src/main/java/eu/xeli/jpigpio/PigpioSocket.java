@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

@@ -1,4 +1,4 @@
-package jpigpio;
+package eu.xeli.jpigpio;
 
 /**
  * An extension of the general PigpioException to indicate that a function
