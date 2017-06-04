@@ -1,9 +1,9 @@
 package eu.xeli.jpigpio.packet;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.Pulse;
-import jpigpio.Utils;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.Pulse;
+import eu.xeli.jpigpio.Utils;
 
 import java.util.ArrayList;
 

@@ -5,9 +5,9 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.ArrayList;
 
-import jpigpio.impl.CommonPigpio;
+import eu.xeli.jpigpio.impl.CommonPigpio;
 
-import static jpigpio.Utils.LEint2Long;
+import static eu.xeli.jpigpio.Utils.LEint2Long;
 
 /**
  * An implementation of the Pigpio Java interface using sockets to connect to the target pigpio demon

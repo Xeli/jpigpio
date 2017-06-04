@@ -1,7 +1,7 @@
 package eu.xeli.jpigpio.sensors;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
 
 /**
  * The GY-271 is a module that provides a multi axis magnetic field measurement that is typically used to provide a compass. It is based on the Honeywell HMC5883L IC. The module

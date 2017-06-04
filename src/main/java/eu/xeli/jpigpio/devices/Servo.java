@@ -1,9 +1,9 @@
 package eu.xeli.jpigpio.devices;
 
-import jpigpio.JPigpio;
-import jpigpio.Pigpio;
-import jpigpio.PigpioException;
-import jpigpio.Utils;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.Pigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.Utils;
 
 /**
  * Control a servo at a high level.

@@ -1,8 +1,8 @@
 package eu.xeli.jpigpio.impl;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.Utils;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.Utils;
 
 public class SPI {
 	private int handle;

@@ -1,6 +1,6 @@
 package eu.xeli.jpigpio.packet;
 
-import jpigpio.GPIOListener;
+import eu.xeli.jpigpio.GPIOListener;
 
 /**
  * NotificationListener is object, which after being registered with NotificationRouter (see class PigpioSocket)

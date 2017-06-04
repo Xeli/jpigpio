@@ -1,8 +1,8 @@
 package eu.xeli.jpigpio.sensors;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.WrongModeException;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.WrongModeException;
 
 public class HC_SR04 {
 	private JPigpio pigpio;

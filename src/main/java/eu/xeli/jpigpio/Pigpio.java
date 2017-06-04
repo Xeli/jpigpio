@@ -1,6 +1,6 @@
 package eu.xeli.jpigpio;
 
-import jpigpio.impl.CommonPigpio;
+import eu.xeli.jpigpio.impl.CommonPigpio;
 
 import java.util.ArrayList;
 

@@ -16,10 +16,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 package eu.xeli.jpigpio.devices;
 
-import jpigpio.GPIO;
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.WrongModeException;
+import eu.xeli.jpigpio.GPIO;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.WrongModeException;
 
 /**
  * A data sheet can be found at <a href="https://docs.google.com/file/d/0B4JhBWQiFENbNnpEVTAtUFZzdHM/edit">Datasheet</a>.

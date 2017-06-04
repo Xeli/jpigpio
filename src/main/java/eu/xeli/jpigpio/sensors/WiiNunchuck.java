@@ -1,7 +1,7 @@
 package eu.xeli.jpigpio.sensors;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
 
 /**
  * Wrapper for WiiNunchuck.  The Wii Nunchuck is an I2C device and hence has to be connected

@@ -1,8 +1,8 @@
 package eu.xeli.jpigpio.devices;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.WrongModeException;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.WrongModeException;
 
 /**
  * Control a stepper motor

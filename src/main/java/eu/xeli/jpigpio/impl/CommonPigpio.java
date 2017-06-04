@@ -1,8 +1,8 @@
 package eu.xeli.jpigpio.impl;
 
-import jpigpio.GPIO;
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
+import eu.xeli.jpigpio.GPIO;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
 
 public abstract class CommonPigpio implements JPigpio {
 

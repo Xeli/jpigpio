@@ -1,10 +1,10 @@
 package eu.xeli.jpigpio.devices;
 
-import jpigpio.JPigpio;
-import jpigpio.NotImplementedException;
-import jpigpio.PigpioException;
-import jpigpio.Utils;
-import jpigpio.WrongModeException;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.NotImplementedException;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.Utils;
+import eu.xeli.jpigpio.WrongModeException;
 
 public class LCD {
 	private JPigpio pigpio;

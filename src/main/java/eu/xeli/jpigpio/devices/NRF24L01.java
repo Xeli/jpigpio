@@ -4,11 +4,11 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.Arrays;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.WrongModeException;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.WrongModeException;
 
-import static jpigpio.Utils.bytesToHex;
+import static eu.xeli.jpigpio.Utils.bytesToHex;
 
 /**
  * The NRF24L is a wireless communication device.

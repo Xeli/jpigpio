@@ -3,12 +3,12 @@ package eu.xeli.jpigpio.devices;
 import java.io.File;
 import java.io.IOException;
 
-import jpigpio.FileIO;
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.Utils;
-import jpigpio.WrongModeException;
-import jpigpio.impl.SPI;
+import eu.xeli.jpigpio.FileIO;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.Utils;
+import eu.xeli.jpigpio.WrongModeException;
+import eu.xeli.jpigpio.impl.SPI;
 
 /**
  * The VS1053 is an audio device accessed via SPI. We will assume that the VS1053 is connected to hardware SPI as normal. Since the pin out of the VS1053 development board is:

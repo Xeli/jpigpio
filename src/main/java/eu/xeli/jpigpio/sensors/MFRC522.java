@@ -1,9 +1,9 @@
 package eu.xeli.jpigpio.sensors;
 
-import jpigpio.JPigpio;
-import jpigpio.PigpioException;
-import jpigpio.WrongModeException;
-import jpigpio.impl.SPI;
+import eu.xeli.jpigpio.JPigpio;
+import eu.xeli.jpigpio.PigpioException;
+import eu.xeli.jpigpio.WrongModeException;
+import eu.xeli.jpigpio.impl.SPI;
 
 public class MFRC522 {
 
