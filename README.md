@@ -35,11 +35,6 @@ Obviously, this is only a subset of the full and rich capabilities of C and Pyth
 
 Since `jpigpio.JPigpio` is a Java interface, something must implement it.  Two separate implementations are provided.  One called `jpigpio.Pigpio` and one called `jpigpio.PigpioSocket`.  Both of them implement the `jpigpio.JPigpio` interface.  The difference between them is how the calls from Java to pigpio are achieved.
 
-## jpigpio.Pigpio
-Using this class, your custom Java code **must** be executed on the Raspberry Pi.  The method calls made in Java are passed as quickly as possible to the underlying pigpio C library for execution.  This provides the fastest capability to call pigpio with as little Java overhead as possible.  Of course, the Java classes must execute on the Pi.
-
-![text](images/NoSockets.png)  
-
 ## jpigpio.PigpioSocket
 Using this class, your custom Java code can run either on the Raspberry Pi or on a separate machine as long as there is a network connection (TCP/IP).  The pigpio function requests are transmitted via sockets to the pigpio supplied demon which is called `pigpiod` which can listen for incoming requests and service them when they arrive.
 
@@ -103,22 +98,7 @@ The JPigpio interface defines a set of constants for use with the library:
 ----
 
 # Running an application
-JPigpio is built against Java version 8 and hence requires a Java 8 environment in order to run.  This is the current level of Java supplied with Raspbian.  An application that only uses the `PigpioSocket` class needs no additional special environment.  However, an application that uses the `Pigpio` class needs to be able to find the JPigpio shared library written in C.  This is specified by adding the path to the directory which contains the file `libJPigpioC.so`.
-
-    java -Djava.library.path=<directory containing JPigpio library> tests/Test_Blink
-
-If the library can not be found, you will get an exception that looks similar to:
-
-	Exception in thread "main" java.lang.UnsatisfiedLinkError: no JPigpioC in java.library.path
-	        at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1857)
-	        at java.lang.Runtime.loadLibrary0(Runtime.java:870)
-	        at java.lang.System.loadLibrary(System.java:1119)
-	        at jpigpio.Pigpio.<clinit>(Pigpio.java:5)
-	        at tests.Test_Blink.run(Test_Blink.java:30)
-	        at tests.Test_Blink.main(Test_Blink.java:24)
-
-Check that the java.library.path is supplied and that its value points to a directory which contains the `libJPigpioC.so` library file.
-
+JPigpio is built against Java version 8 and hence requires a Java 8 environment in order to run.  This is the current level of Java supplied with Raspbian.
 ----
 
 # Installation
@@ -150,4 +130,4 @@ On occasion, you may find existing code written for either an Arduino (a sketch)
 ----
 
 # Future of the project
-I will be delighted to accept change requests and bug reports (if any can be found) and turn those around as quickly as possible.  I have been an IT hobbyist/coder for decades and am not planning on going anywhere soon so feel free to believe that this will be a maintained project as long as needed.
+I will be delighted to accept change requests and bug reports (if any can be found) and turn those around as quickly as possible.
